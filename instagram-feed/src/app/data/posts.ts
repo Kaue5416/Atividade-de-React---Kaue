@@ -1,161 +1,185 @@
 
-export const posts = Array.from({ length: 20 }, (_, i) => ({
-  username: `user${i + 1}`,
-  avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-  imageUrl: `https://www.primevideo.com/-/pt_PT/detail/Sonic-the-Hedgehog-3-Movie-Collection/0MBZ6VS62EHCBD0SL9PF9IEGJL`,
-  numberOfLikes: Math.floor(Math.random() * 1000),
-  description: `Sonic on the Prime Video`,
-}));
+export const posts = [
+  {
+    id: 1,
+    username: "André",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/5847b8wz",
+    numberOfLikes: 2000,
+    description: "Com toda sua imponência, o MIG-31 decola usando o seu afterburner."
+  },
+ 
+  {
+    id: 2,
+    username: "Victor",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/5xp868v8",
+    numberOfLikes: 300,
+    description: "E lá vamos nós para mais um rolê noturno 🚀"
+  },
 
-export const posts2 = Array.from({ length: 20 }, (_, i) => ({
-  username: `user${i + 2}`,
-    avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-    imageUrl: `https://www.adorocinema.com/series/serie-28290/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Series`,
-    }));
+  {
+    id: 3,
+    username: "Davi",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/5hc3ph7u",
+    numberOfLikes: 120,
+    description: "um sonho realizado! 🚀",
+  },
 
-export const posts3 = Array.from({ length: 20 }, (_, i) => ({
-  username: `user${i + 3}`,
-    avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-    imageUrl: `https://store.steampowered.com/app/2951690/Sonic_Rumble/?l=portuguese&snr=1_1050_curatorsreviewing__suggested-curator-recommended&curator_clanid=45456035`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Rumble`,
-    }));
+  {
+    id: 4,
+    username: "Júnior",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/v3exz4ep",
+    numberOfLikes: 5000,
+    description: "mais um dia turistando no Atacama com a galera! 🌄"
+  },
 
-export const posts4 = Array.from({ length: 20 }, (_, i) => ({
-  username: `user${i + 4}`,
-    avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-    imageUrl: `https://estacaonerd.com/sonic-superstars-veja-a-animacao-de-abertura-do-jogo/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Superstar`,
-    }));
+  {
+    id: 5,
+    username: "Raphael",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/48wfwc7y",
+    numberOfLikes: 21000,
+    description: "A vida é feita de escolhas, eu escolhi ser piloto... e você?"
+  },
 
-export const posts5 = Array.from({ length: 20 }, (_, i) => ({
-  username: `user${i + 5}`,
-    avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-    imageUrl: `https://www.microsoft.com/en-ca/p/sonic-the-hedgehog-3-movie-collection/8d6kgwz2dt7g`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Movies`,
-    }));
+  {
+    id: 6,
+    username: "Lucas",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/bh9e498u",
+    numberOfLikes: 900,
+    description: "Se quiser ir ao fim do mundo compre uma Land Rover, mas se quiser voltar de lá, compre uma Landcruiser."
+  },
 
-export const posts6 = Array.from({ length: 20 }, () => ({
-  username: `Sonic The Hedgehog`,
-    avatarUrl: `https://play.google.com/store/apps/details/Sonic_the_Hedgehog_Classic?id=com.sega.sonic1px&hl=pt_BR`,
-    imageUrl: `https://www.gettyimages.com.br/fotos/sonic-hedgehog`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Comic Con`,
-    }));
+  {
+    id: 7,
+    username: "Gabriel",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/3xwusrra",
+    numberOfLikes: 1500,
+    description: "Carro de familia, mas com um motor de verdade! 🚗💨"
+  },
 
-export const posts7 = Array.from({ length: 20 }, () => ({
-  username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://www.wattpad.com/645233732-video-game-fanart-bendy-and-the-ink-machine`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `My friends`,
-    }));
+  {
+    id: 8,
+    username: "Scooter_driver__",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/muedh33k",
+    numberOfLikes: 13500,
+    description: "Essa foto é o registro do meu primeiro pouso no porta-aviões NAe São Paulo, em 2004."+
+     "Foi uma experiência incrível e desafiadora! 🛩️"
+  },
+  
+  {
+    id: 9,
+    username: "Léo",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/yzdfhra2",
+    numberOfLikes: 800,
+    description: "O carro do chefe..."
+  },
 
-export const posts8 = Array.from({ length: 20 }, () => ({
-  username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://store.playstation.com/pt-br/product/UP2344-CUSA13637_00-MDKRTGAMES4BATIM/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Game Collection`,
-    }));
+  {
+    id: 10,
+    username: "Felipe",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/ycy3shny",
+    numberOfLikes: 1200,
+    description: "partiu mais uma noite de jogatina",
+  },
 
-export const posts9 = Array.from({ length: 20 }, () => ({
-  username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://www.phantasietranslate.com.br/bendy-os-perdidos`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Books`,
-    }));
+  {
+    id: 11,
+    username: "Byanca",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/43m2vwpf",
+    numberOfLikes: 700,
+    description: "Apreciando a natureza. 🌲🌳",
+  },
 
-export const posts10 = Array.from({ length: 20 }, () => ({
-  username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://bendy.wiki.gg/images/thumb/e/e5/BATDR_Ink_Demon_Render_%28%40MLSpence3D%29.png/600px-BATDR_Ink_Demon_Render_%28%40MLSpence3D%29.png?fe59b9`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `I'm the Ink Demon`,
-    }));
+  {
+    id: 12,
+    username: "Lucas_noob",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/26czhafw",
+    numberOfLikes: 500,
+    description: "CH-47 Chinook realizando extração de tropas em terreno montanhoso. Uma verdadeira obra-prima da engenharia militar!",
+  },
 
-export const posts11 = Array.from({ length: 20 }, () => ({
-  username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://play-lh.googleusercontent.com/Cye9E1yuT0cgaeY0svkXFsgx-QoFBFzUX5MV5Sd5gor0_i1nknhc8boR7bkLLWSTEA=w526-h296-rw`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Android`,
-    }));
+  {
+    id: 13,
+    username: "Eraldo",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/5dw8kjp2",
+    numberOfLikes: 300,
+    description: "mais um dia de treimo com força total! 💪" 
+  },
 
-export const posts12 = Array.from({ length: 20 }, () => ({
-    username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://store-images.s-microsoft.com/image/apps.34036.13753384857029891.bcbc91d4-3081-4c5e-b2b5-fdd34fa122e0.c21b1095-24b9-4970-8ef7-6c7181a86de4?q=90&w=480&h=270`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Xbox`,
-    }));
+  {
+    id: 14,
+    username: "Lívia",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/2hrmavwr",
+    numberOfLikes: 900,
+    description: "🏍️💨🚀",
+  },
 
-export const posts13 = Array.from({ length: 20 }, () => ({
-    username: `Bendy`,
-    avatarUrl: `https://www.reddit.com/r/BendyAndTheInkMachine/comments/zpt64e/are_the_renderings_from_the_bendy_wiki_real/?tl=pt-br`,
-    imageUrl: `https://i.pinimg.com/236x/32/e4/b0/32e4b08736f0206cd072c39e7151cef8.jpg`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Ink Demon BaTim`,
-    }));
+  {
+    id: 15,
+    username: "Kauê",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/uj2bx5hp",
+    numberOfLikes: 1000,
+    description: "Mais um dia andando pelas ruas do japão.",
+  },
 
-export const posts14 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://br.pinterest.com/pin/luffy-brasileiro--924926842204725234/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Brazil`,
-    }));
+  {
+    id: 16,
+    username: "Pedro",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/2jfnm9c5",
+    numberOfLikes: 1100,
+    description: "",
+  },
 
-export const posts15 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://observatoriodocinema.com.br/series/one-piece-revelado-como-luffy-pode-ver-o-futuro/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `The Crew`,
-    }));
+  {
+    id: 17,
+    username: "Thomas.png",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/mwbwrvwp",
+    numberOfLikes: 1200,
+    description: "lindo, imponente e brutal!",
+  },
 
-export const posts16 = Array.from({ length: 20 }, (_, i) => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://picsum.photos/seed/${i + 1}/600/400https://www.crunchyroll.com/pt-br/news/features/2024/5/5/conheca-monkey-d-luffy-one-piece-anime-destaque-aniversario-25-anos`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Egghead`,
-    }));
+  {
+    id: 18,
+    username: "Fernando",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/2zkjakex",
+    numberOfLikes: 1300,
+    description: "",
+  },
 
-export const posts17 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://www.toyshow.com.br/outlet-2024/estatua-monkey-d-luffy-batalha-de-wano-one-piece-anime-manga-30cm-outlet-2024-mkp`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Gear 4`,
-    }));
+  {
+    id: 19,
+    username: "Bruno",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/3dc7fzat",
+    numberOfLikes: 1500,
+    description: "",
+  },
 
-export const posts18 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://scc10.com.br/colunistas/um-noob/efeitos-colaterais-de-cada-gear-do-luffy-em-one-piece/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `King of Pirates`,
-    }));
+  {
+    id: 20,
+    username: "Lauany_gl",
+    avatarUrl: "https://tinyurl.com/mvrr2bzv",
+    imageUrl: "https://tinyurl.com/4822a98j",
+    numberOfLikes: 1400,
+    description: "Nada melhor do que uma caminhada no domingo de manã.",
+  },
+  
+];
 
-export const posts19 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://scc10.com.br/colunistas/um-noob/efeitos-colaterais-de-cada-gear-do-luffy-em-one-piece/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `Gear 5`,
-    }));
-
-
-export const posts20 = Array.from({ length: 20 }, () => ({
-    username: `Monkey D. Luffy`,
-    avatarUrl: `https://mundosinfinitos.com.br/geek/info/personagem-monkey-d-luffy.aspx`,
-    imageUrl: `https://www.aficionados.com.br/luffy-one-piece/`,
-    numberOfLikes: Math.floor(Math.random() * 1000),
-    description: `One Piece`,
-    }));
